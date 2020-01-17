@@ -13,4 +13,8 @@ routes.get('/devSearch/', DevSearchController.index)
 
 routes.post('/devs', DevController.store)
 
+routes.put('/devs', DevController.update)
+
+routes.delete('/devs', DevController.destroy)
+
 module.exports = routes;
